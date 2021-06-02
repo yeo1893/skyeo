@@ -80,3 +80,46 @@ git config --global user.email "깃허브에 사용할 이메일주소"
 
 9. 로그 확인하기
 git log
+
+10. 여러 파일을 선택하기
+git add .
+
+11. 여러 파일 커밋 하기
+git commit -m "모든 파일 추가"
+
+12. 로그 확인하기
+git log
+
+13. 로컬 저장소에 github 저장소 주소 설정 하기
+git remote add origin https://github.com/yeo1893/skyeo.git
+
+14. 만든 커밋을 github에 push 하기
+git push -u origin master
+
+원격 저장소(github)의 자료를 내 컴퓨터에 받아오기
+
+1. 디렉토리 이동
+cd C:\여상규\Clone
+
+2. 원격 저장소에서 자료를 복사해서 가져오기
+git clone https://github.com/yeo1893/skyeo.git (폴더 생성)
+git clone https://github.com/yeo1893/skyeo.git . (파일만 생성)
+
+3. 깃 폴더 및 파일을 삭제
+rm -rf Clone
+
+4. README.md의 index.html 파일을 수정
+
+5. git add .
+
+6. git commit -m "README.md, index.html 파일 수정 "
+
+7. git push -u origin master
+
+
+다른 사람들과 협업하기
+
+repository 선택 -> setting -> manage access -> 비밀번호 입력 -> invite a cllaborators 버튼을 클릭 -> 상대방 이메일 또는 이름을 등록
+
+GUI 깃 프로그램
+https://www.sourcetreeapp.com/
